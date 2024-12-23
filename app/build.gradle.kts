@@ -53,12 +53,19 @@ dependencies {
     implementation(libs.compose.ui)
     implementation(libs.compose.material)
     implementation(libs.androidx.navigation.compose)
+    implementation(libs.androidx.material3)
+    implementation(libs.androidx.lifecycle.viewmodel.compose)
+    implementation(libs.androidx.lifecycle.runtime.ktx)
 
     // Coroutines (для асинхронной обработки)
     implementation(libs.coroutines)
 
     // Coil (для загрузки изображений)
     implementation(libs.coil.compose)
+
+    // Retrofit (для API)
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
 
     // Тестирование
     testImplementation(libs.junit)
